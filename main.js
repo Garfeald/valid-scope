@@ -9,7 +9,7 @@ inputValue.oninput = (e) => {
     
     let value = inputValue.value
     if(value){
-        data = value.toString()
+        data = value
     }
 }
 
