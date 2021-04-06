@@ -17,9 +17,9 @@ const showResult = (data) => {
     if (data.split("(").length == data.split(")").length 
     && data.split("[").length == data.split("]").length 
     && data.split("{").length == data.split("}").length) 
-        alert('true'); 
+        alert(true); 
     else 
-        alert('false');
+        alert(false);
 }
 
 
